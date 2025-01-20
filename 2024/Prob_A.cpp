@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const int num_inputs = 3;
-int hrs[num_inputs];
-int mins[num_inputs];
-int total[num_inputs];
-
 
 int main(){
+    
+    const int num_inputs = 3;
+    int hrs[num_inputs];
+    int mins[num_inputs];
+    int total[num_inputs];
+
     for (size_t i = 0; i < num_inputs; i++)
     {
         scanf("%d %d", &hrs[i], &mins[i]);
