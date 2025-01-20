@@ -15,23 +15,27 @@ scanf("%d %d", &D, &M);
         }
     else if (M == 12 && D > 25)
         {
-            quanto += Meses[M - 1] - 25;
+            quanto += Meses[M - 1] - D;
             M = 1;
         }
     else
         {
             quanto = Meses[M-1] - D;
+            printf("%d\n", quanto);
+            
         }
 
-    for (int i = M - 1; i < 12; i++)
+    for (int i = M; i < 12; i++)
     {
         if (i == 11)
         {
+            quanto += 25;
             break;
         }
         else
         {
         quanto += Meses[i];
+        printf("%d\n", quanto);
         }
     }
     
