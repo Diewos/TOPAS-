@@ -20,13 +20,13 @@ int main(){
     }
 
 
-    if (hrs[2] >= hrs[0] && hrs[2] <= hrs[1] )
+    if (total[2] >= total[0] && total[2] <= total[1])
     {
-        printf("Encontram-se");
+        printf("Encontram-se\n");
     }
     else
     {
-        printf("Desencontram-se");
+        printf("Desencontram-se\n");
     }
 
     system("PAUSE");
