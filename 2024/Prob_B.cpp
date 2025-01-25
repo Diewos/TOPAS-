@@ -21,7 +21,6 @@ scanf("%d %d", &D, &M);
     else if (M == 12 && D == 25)
         {
             quanto = 0;
-            printf("%d\n", quanto);
             return 0;
         }
     else
@@ -40,7 +39,6 @@ scanf("%d %d", &D, &M);
         else
         {
         quanto += Meses[i];
-        printf("%d\n", quanto);
         }
     }
     
